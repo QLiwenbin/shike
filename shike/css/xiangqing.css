@@ -1,0 +1,249 @@
+@import "base.css";
+/*头部开始*/
+header{
+    width: 100%;
+    height: 6.5rem;
+    position: relative;
+}
+.head-box{
+    width: 100%;
+    height: 6.5rem;
+}
+.head-box img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+header i{
+    font-size: 0.4rem;
+    color: #fff;
+    position: absolute;
+    top: 0.45rem;
+    left: 0.35rem;
+    margin: auto;
+}
+.xq-title{
+    width: 100%;
+    height: 4.23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.01rem solid #D8D8D8;
+}
+.xq-title-box{
+    width: 9.9rem;
+    height: 3.33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.xq-title-box h2{
+    font-size: 0.42rem;
+    font-weight:500;
+}
+.xq-title-box div{
+    width: 0.84rem;
+    height: 0.42rem;
+    color: #FA7070;
+    border: 0.01rem solid #FA7070;
+    text-align: center;
+    line-height: 0.42rem;
+    font-size: 0.26rem;
+}
+.xq-title-box span{
+    display: block;
+    font-size: 0.30rem;
+    color: #999;
+}
+.xq-title-box p{
+    display: flex;
+    justify-content: space-between;
+}
+.xq-title-box p span{
+    font-size: 0.52rem;
+    color: red;
+}
+.xq-title-box p em{
+    font-style: normal;
+    border-radius: 0.1rem;
+    width: 2.85rem;
+    height: 0.99rem;
+    background: #FFD161;
+    color: #333333;
+    text-align: center;
+    line-height: 0.99rem;
+    font-size: 0.38rem;
+}
+.xq-zi-box{
+    width: 100%;
+    height: 2.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.01rem solid #D8D8D8;
+}
+.xq-zi-box h2{
+    width: 10.2rem;
+    height: 1.6rem;
+    line-height: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+.xq-zi-box h2 div{
+    width: 0.07rem;
+    height: 0.37rem;
+    background: #FFD161;
+}
+.xq-zi-box h2 span{
+    display: block;
+    font-size: 0.4rem;
+    margin-left: 0.2rem;
+    font-weight: 400;
+    color: #999;
+}
+.xq-zi-box p{
+    width: 10.2rem;
+    height: 1.1rem;
+    font-size: 0.38rem;
+    color: #333333;
+}
+/*评价开始*/
+.pj-box{
+    width: 100%;
+    height: 1.36rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.01rem solid #E4E4E4;
+}
+.pj-box-tit{
+    width: 10.2rem;
+    height: 100%;
+    line-height: 1.36rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pj-box-tit p{
+    font-size: 0.4rem;
+    color: #333333;
+    font-weight: 500;
+}
+.pj-box-tit p em{
+    font-style: normal;
+    color: #999;
+    font-size: 0.38rem;
+    margin-left: 0.15rem;
+}
+.pj-box-tit p em i{
+    font-style: normal;
+    color: red;
+    font-size: 0.38rem;
+}
+.pj-box-tit span,.pj-box-tit span i{
+    font-size: 0.4rem;
+    color: #999;
+}
+.pj-nr-box{
+    width: 100%;
+    height: auto;
+}
+.pj-nr-box ul{
+   width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 1.4rem;
+}
+.pj-nr-box ul li{
+    width: 10.5rem;
+    height: 3.84rem;
+    border-bottom: 0.01rem solid #DADADA;
+    display: flex;
+    align-items: center;
+}
+.pj-li-box{
+    width: 100%;
+    height: 2.94rem;
+    display: flex;
+}
+.pj-li-tu{
+    width: 1.22rem;
+    height: 1.22rem;
+    border-radius: 50%;
+    border: 0.04rem solid #FF9900;
+}
+.pj-li-tu img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.pj-li-box p{
+    width: 8.39rem;
+    height: auto;
+    margin-left: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pj-li-box p span{
+    font-size: 0.42rem;
+    display: block;
+    color: #333333;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.pj-li-box p span em{
+    font-size: 0.28rem;
+    color: #999;
+    font-style: normal;
+}
+.pj-li-box p span:nth-child(2) i{
+    width: 0.33rem;
+    height: 0.33rem;
+    background-image: url("../img/dz.png");
+    background-size: 0.33rem 0.33rem;
+    margin-top: 0.1rem;
+}
+.pj-li-box p span:nth-child(2) em{
+    color: #999;
+    font-size: 0.32rem;
+    font-style: normal;
+    margin-right: 6.1rem;
+}
+.pj-li-box p span:nth-child(3){
+    font-size: 0.4rem;
+    color: #333;
+}
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 1.4rem;
+    background: #27292B;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer i{
+    font-size: 42px;
+    line-height: 1.4rem;
+    color: #FF9900;
+    margin-top: -0.5rem;
+}
+footer span{
+    display: block;
+    font-size: 0.36rem;
+    color: #999;
+    line-height: 1.4rem;
+}
+footer span:nth-child(2){
+    display: block;
+    font-size: 0.38rem;
+    color: #999;
+    line-height: 1.4rem;
+}

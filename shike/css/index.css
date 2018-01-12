@@ -1,0 +1,320 @@
+@import "base.css";
+/*头部开始*/
+header{
+    width: 100%;
+    height: 1.44rem;
+    padding: 0 0.4rem;
+}
+.hots{
+    background: red !important;
+}
+.header-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-box span{
+    display: block;
+    font-size: 0.44rem;
+    color: #666666;
+    line-height: 1.44rem;
+    font-weight: 600;
+}
+.header-box input{
+    width: 6.4rem;
+    height: 0.87rem;
+    background: #EEEEEE;
+    border: 0.01rem solid #EEEEEE;
+    border-radius: 1rem;
+    padding-left: 0.4rem;
+    margin-top: 0.29rem;
+}
+.header-box input:focus{
+    outline: none;
+}
+.jia{
+    width: 0.6rem;
+    height: 0.6rem;
+    border: 0.04rem solid #666;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    font-size: 24px;
+    text-align: center;
+    line-height: 0.5rem;
+}
+/*banner开始*/
+.banner-box{
+    width: 100%;
+    height: 2.9rem;
+    position: relative;
+    background:blue;
+    overflow: hidden;
+}
+.img-box{
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.img-box li,.img-box a{
+    width: 10.8rem;
+    height: 2.9rem;
+    float:left;
+    display: block;
+}
+.img-box li img{
+    width: 100%;
+    height: 100%;
+}
+/* .circle-box{
+    width: 1rem;
+    height: 0.19rem;
+    position: absolute;
+    left: 45%;
+    bottom: 0.18rem;
+    margin: auto;
+} */
+.circle-box {
+    width: 1.2rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0.2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+.circle-box li{
+    width: 0.19rem;
+    height: 0.19rem;
+    margin: 0 0.05rem;
+    border-radius: 50%;
+     float: left;
+    background: #9A7543;
+
+}
+
+/*内容开始*/
+.dh-box{
+    width: 100%;
+    height: 3.6rem;
+}
+.dh-box ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dh-box ul li{
+    width: 20%;
+    height: 100%;
+    padding-top: 0.7rem;
+    border-bottom: 0.01rem solid #EEEEEE;
+}
+.dh-box-tu{
+    width: 1.37rem;
+    height: 1.37rem;
+    margin: 0 auto;
+}
+.dh-box-tu img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.dh-box-tu span{
+    display: block;
+    width: 1.55rem;
+    font-size: 0.33rem;
+    margin-top: 0.2rem;
+    color: #666666;
+    text-align: center;
+}
+/*分类开始*/
+.fl-box{
+    width: 100%;
+    height: 4.2rem;
+}
+.fl-box ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fl-box ul li{
+    width: 20%;
+    height: 50%;
+}
+.fl-box-tu{
+    width: 0.63rem;
+    height: 0.6rem;
+    margin: 0.4rem auto;
+}
+.fl-box-tu img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.fl-box ul li span{
+    display: block;
+    width: 100%;
+    font-size: 0.32rem;
+    text-align: center;
+}
+/*<!--滑屏开始-->*/
+.hp-box{
+    width: 100%;
+    height: 4.35rem;
+    background: #EFEFEF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hp-img-box{
+    width: 10.5rem;
+    height: 3.75rem;
+}
+.hp-img-box ul{
+    width: 100%;
+    height: 100%;
+    display: flex;;
+}
+.hp-img-box ul li{
+    width: 3.58rem;
+    height: 100%;
+    margin-right: 0.15rem;
+}
+.hp-img-box ul li:last-child{
+    margin-right: 0;
+}
+/*猜你喜欢*/
+.cn-box{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.76rem;
+}
+.cn-box h2{
+    font-size: 0.36rem;
+    font-weight: 500;
+    line-height:1.2rem ;
+    text-align: center;
+    color: #999;
+}
+.cn-box ul{
+    width: 100%;
+    height: auto;
+}
+.cn-box ul li{
+    width: 100%;
+    height: 3.6rem;
+    border-top: 0.01rem solid #D8D8D8;
+    display: flex;
+    justify-content: center;
+}
+.cn-li-box{
+    width: 10.2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cn-img-box{
+    width: 2.88rem;
+    height: 2.88rem;
+}
+.cn-img-box img{
+    width: 100%;
+    height: 100%;
+}
+.cn-zi-box{
+    width: 6.88rem;
+    height: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cn-zi-box p{
+    width: 6.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cn-zi-box a{
+    color: #000000;
+}
+.cn-zi-box p span{
+    display: block;
+    font-size: 0.46rem;
+    font-weight: 500;
+}
+.cn-zi-box p em{
+    display: block;
+    font-size: 0.32rem;
+    color: #999;
+}
+.cn-zi-box i{
+    display: block;
+    font-style: normal;
+    font-size: 0.3rem;
+    color: #999;
+}
+.cn-zi-box p:nth-child(2){
+    width: 6.8rem;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cn-zi-box p .jg{
+    font-style: normal;
+    font-size: 0.32rem;
+    color: #06C1AE;
+}
+/*固定栏开始*/
+footer{
+    width: 100%;
+    height: 1.76rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+footer ul li{
+    width: 33.3333%;
+    height: 100%;
+}
+.icon{
+    display:block;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    font-size: 0.2rem;
+}
+.iconfont{
+    font-size: 24px;
+    text-align: center;
+    line-height: 0.52rem;
+}
+.first{
+    color: #06C1AE;
+}
+footer ul li span{
+    display: block;
+    font-size: 0.12rem;
+    text-align: center;
+    margin-top: 0.15rem;
+}
+.shouye{
+    color:#06C1AE;
+}
+.a-zi{
+    color: #000000;
+}

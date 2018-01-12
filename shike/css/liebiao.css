@@ -1,0 +1,398 @@
+@import "base.css";
+/*头部开始*/
+header{
+    background: #27292B;
+    width: 100%;
+    height: 4.2rem;
+}
+.header-top{
+    width: 100%;
+    height: 1.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-top-box{
+    width: 10.2rem;
+    height: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top-box i{
+    display: block;
+    line-height: 0.85rem;
+    font-size: 0.4rem;
+    color: #fff;
+}
+.header-top-box input{
+    width: 6.66rem;
+    height: 100%;
+    font-size: 0.32rem;
+    color: #666;
+    line-height: 0.85rem;
+    padding-left: 1rem;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #302F2D;
+    background: #302F2D;
+}
+.header-top-box input:focus{
+    outline: auto;
+}
+.circle-box{
+    width: 0.7rem;
+    height: 0.2rem;
+}
+.circle-box ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.circle-box ul li{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    border: 0.02rem solid #fff;
+}
+.header-center{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-center-box{
+    width: 10rem;
+    height: 1.08rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header-center-img{
+    width: 1.08rem;
+    height: 1.08rem;
+    background-image: url("../img/cn2.png");
+    background-size: 1.08rem 1.08rem;
+}
+.header-center-box p{
+    width: 7.4rem;
+    height: 0.9rem;
+    margin-right: 0.2rem;
+    margin-top: 0.05rem;
+    border-right: 0.01rem solid #fff;
+    color: #fff;
+}
+.header-center-box p span{
+    display: block;
+    font-size: 0.38rem;
+    font-weight: 500;
+}
+.header-center-box p span:nth-child(2){
+    display: block;
+    font-size: 0.28rem;
+    margin-top: 0.1rem;
+}
+.header-center-box p span:nth-child(2) i{
+    font-size: 0.3rem;
+}
+.header-center-icon{
+    width: 0.7rem;
+    height: 1.08rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0.2rem;
+    color: #fff;
+}
+.header-center-icon i{
+    display: block;
+    text-align: center;
+    font-size: 0.5rem;
+}
+.header-center-icon span{
+    display: block;
+    text-align: center;
+    font-size: 0.18rem;
+}
+.header-bottom{
+    width: 100%;
+    height:0.9rem ;
+    display: flex;
+    justify-content: center;
+}
+.header-bottom-box{
+    width: 10.2rem;
+    height: 100%;
+    border-top: 0.01rem solid #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.header-botton-left{
+    width: 0.5rem;
+    height: 0.43rem;
+    background: #6C5CB4;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.43rem;
+}
+.header-bottom-box span{
+    font-size: 0.18rem;
+    display: block;
+    margin-right: 3.6rem;
+}
+.header-bottom-box em{
+    display: block;
+    font-size: 0.16rem;
+    font-style: normal;
+}
+.header-bottom-box em i{
+    font-size: 0.18rem;
+}
+/*内容栏开始*/
+.tit-box{
+    width: 100%;
+    height: 1.14rem;
+    border-bottom: 0.01rem solid #E4E4E4;
+    background: #FAFAFA;
+}
+.tit-box ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.tit-box ul li{
+    width: 33.3%;
+    height: 100%;
+    font-size: 0.28rem;
+    line-height: 1.14rem;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+}
+.tit-box ul li:nth-child(1){
+    color: #FFB000;
+}
+.tit-box li a{
+    color: #333;
+}
+section{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+section ul{
+    width: 100%;
+    height: 100%;
+}
+section ul li{
+    width: 2.4rem;
+    height: 1.4rem;
+    border-bottom: 0.01rem solid #E4E4E4;
+    background:#F4F4F4;
+}
+section ul li:first-child{
+    background: #fff;
+}
+section ul li p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section ul li p i{
+    width: 0.45rem;
+    height: 0.45rem;
+}
+section ul li p i img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+section ul li p span{
+    margin-left: 0.2rem;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.18rem;
+    color: #666;
+}
+section ul li:nth-child(3)~li{
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.18rem;
+    color: #666;
+}
+.sec-right{
+    width: 8.4rem;
+    height: auto;
+    position: absolute;
+    left: 2.4rem;
+    top: 0;
+    margin: auto;
+    background: #fff;
+}
+.sec-right-img1{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-right-tu{
+    width: 7.8rem;
+    height: 2.4rem;
+    background-image: url("../img/nr4.png");
+    background-size: 7.8rem 2.4rem;
+}
+.sec-right-img2{
+    width: 100%;
+    height: 2.7rem;
+    display: flex;
+    justify-content: center;
+}
+.sec-right-tu1{
+    width: 7.8rem;
+    height: 2.4rem;
+    background-image: url("../img/nr5.png");
+    background-size: 7.8rem 2.4rem;
+}
+.sec-right h2{
+    width: 100%;
+    height:1.08rem ;
+    border-top: 0.01rem solid #E4E4E4;
+    display: flex;
+    align-items: center;
+}
+.xian{
+    width: 0.07rem;
+    height: 0.3rem;
+    background: #FFD161;
+    margin-left: 0.3rem;
+}
+.sec-right h2 span{
+    font-size: 0.36rem;
+    margin-left: 0.2rem;
+    font-weight: 500;
+}
+.sec-cd-box{
+    width: 100%;
+    height: 3.36rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec-cd-right a{
+    color: #333333;
+}
+.sec-cd-box li{
+    width: 7.8rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-cd-box li:nth-child(1)~li{
+    margin-top: 0.5rem;
+    background: #fff;
+}
+.sec-cd-box li:last-child{
+    margin-bottom: 1.5rem;
+}
+.sec-cd-left{
+    width: 1.65rem;
+    height: 1.65rem;
+}
+.sec-cd-left img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.sec-cd-right{
+    width: 5.92rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sec-cd-right span{
+    display: block;
+    font-size: 0.4rem;
+    font-weight: 600;
+}
+.sec-cd-right .lj{
+    width: 0.84rem;
+    height: 0.42rem;
+    border: 0.01rem solid #FA7070;
+    color: #FA7070;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.42rem;
+}
+.sec-cd-right p{
+    font-size: 0.32rem;
+    color: #999;
+}
+.sec-cd-right em{
+    font-size: 0.32rem;
+    color: #999;
+    font-style: normal;
+}
+.sec-cd-right em i{
+    font-size: 0.32rem;
+    color: #999;
+    margin-left: 0.5rem;
+    font-style: normal;
+}
+.sec-cd-right .sec-cd-last{
+    width: 5.92rem;
+    height: 0.76rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-cd-last span{
+    display: block;
+    font-size: 0.28rem;
+    line-height: 0.76rem;
+    color: red;
+    font-weight: 600;
+}
+.sec-cd-last span:nth-child(2){
+    width: 0.76rem;
+    height: 0.76rem;
+    background: #FFD161;
+    font-size: 0.34rem;
+    color: #333333;
+    text-align: center;
+    line-height: 0.76rem;
+    border-radius: 50%;
+}
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 1.4rem;
+    background: #27292B;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer i{
+    font-size: 42px;
+    line-height: 1.4rem;
+    color: #FF9900;
+    margin-top: -0.5rem;
+}
+footer span{
+    display: block;
+    font-size: 0.36rem;
+    color: #999;
+    line-height: 1.4rem;
+}
+footer span:nth-child(2){
+    display: block;
+    font-size: 0.38rem;
+    color: #999;
+    line-height: 1.4rem;
+}

@@ -1,0 +1,7 @@
+@import "base.css";
+/*头部开始*/
+header{
+    width: 100%;
+    height: 1.42rem;
+    background: #F9F9F9;
+}

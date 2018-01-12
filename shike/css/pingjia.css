@@ -1,0 +1,382 @@
+@import "base.css";
+/*头部开始*/
+body{
+    background: #EFEFEF;
+}
+header{
+    background: #27292B;
+    width: 100%;
+    height: 4.2rem;
+}
+.header-top{
+    width: 100%;
+    height: 1.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-top-box{
+    width: 10.2rem;
+    height: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top-box i{
+    display: block;
+    line-height: 0.85rem;
+    font-size: 0.4rem;
+    color: #fff;
+}
+.header-top-box input{
+    width: 6.66rem;
+    height: 100%;
+    font-size: 0.32rem;
+    color: #666;
+    line-height: 0.85rem;
+    padding-left: 1rem;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #302F2D;
+    background: #302F2D;
+}
+.header-top-box input:focus{
+    outline: auto;
+}
+.circle-box{
+    width: 0.7rem;
+    height: 0.2rem;
+}
+.circle-box ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.circle-box ul li{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    border: 0.02rem solid #fff;
+}
+.header-center{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-center-box{
+    width: 10rem;
+    height: 1.08rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header-center-img{
+    width: 1.08rem;
+    height: 1.08rem;
+    background-image: url("../img/cn2.png");
+    background-size: 1.08rem 1.08rem;
+}
+.header-center-box p{
+    width: 7.4rem;
+    height: 0.9rem;
+    margin-right: 0.2rem;
+    margin-top: 0.05rem;
+    border-right: 0.01rem solid #fff;
+    color: #fff;
+}
+.header-center-box p span{
+    display: block;
+    font-size: 0.38rem;
+    font-weight: 500;
+}
+.header-center-box p span:nth-child(2){
+    display: block;
+    font-size: 0.28rem;
+    margin-top: 0.1rem;
+}
+.header-center-box p span:nth-child(2) i{
+    font-size: 0.3rem;
+}
+.header-center-icon{
+    width: 0.7rem;
+    height: 1.08rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0.2rem;
+    color: #fff;
+}
+.header-center-icon i{
+    display: block;
+    text-align: center;
+    font-size: 0.5rem;
+}
+.header-center-icon span{
+    display: block;
+    text-align: center;
+    font-size: 0.18rem;
+}
+.header-bottom{
+    width: 100%;
+    height:0.9rem ;
+    display: flex;
+    justify-content: center;
+}
+.header-bottom-box{
+    width: 10.2rem;
+    height: 100%;
+    border-top: 0.01rem solid #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.header-botton-left{
+    width: 0.5rem;
+    height: 0.43rem;
+    background: #6C5CB4;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.43rem;
+}
+.header-bottom-box span{
+    font-size: 0.18rem;
+    display: block;
+    margin-right: 3.6rem;
+}
+.header-bottom-box em{
+    display: block;
+    font-size: 0.16rem;
+    font-style: normal;
+}
+.header-bottom-box em i{
+    font-size: 0.18rem;
+}
+/*内容栏开始*/
+.tit-box{
+    width: 100%;
+    height: 1.14rem;
+    border-bottom: 0.01rem solid #E4E4E4;
+    background: #FAFAFA;
+}
+.tit-box ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.tit-box ul li{
+    width: 33.3%;
+    height: 100%;
+    font-size: 0.28rem;
+    line-height: 1.14rem;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+}
+.tit-box ul li:nth-child(2){
+    color: #FFB000;
+}
+.tit-box li a{
+    color: #333333;
+}
+/*等级栏*/
+.df-box{
+    width: 100%;
+    height: 2.52rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.df-box1{
+    width: 9.3rem;
+    height:1.44rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.df-box-left{
+    display: block;
+    width: 7.25rem;
+    height: 1.44rem;
+    border-right: 0.01rem solid #E4E4E4;
+    display: flex;
+}
+.df-box-left p{
+    width: 2.05rem;
+    height: 1.44rem;
+}
+.df-box-left p span{
+    display: block;
+    font-size: 0.5rem;
+    text-align: center;
+    color: #FFB000;
+}
+.df-box-left p span:nth-child(2),.df-box-right p span:nth-child(2){
+    color: #999;
+    font-size: 0.28rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.df-box-right{
+    width: 2.05rem;
+    height: 1.44rem;
+}
+.df-box-left p:nth-child(2){
+    width: 4.29rem;
+    height: 1.15rem;
+    margin-left: 0.25rem;
+}
+.df-box-left p:nth-child(2) span{
+    font-size: 0.28rem;
+    color: #333;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.df-box-left p:nth-child(2) span i ,.df-box-left p:nth-child(2) span em{
+    font-size: 0.28rem;
+    color: #FFB000;
+    font-style: normal;
+}
+.df-box-right p span{
+    display: block;
+    font-size: 0.5rem;
+    text-align: center;
+    color: #999;
+}
+.pj-box{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 0.2rem;
+    padding-top: 0.4rem;
+}
+.pj-box-top{
+    width: 6.6rem;
+    height: 1.11rem;
+    border: 0.04rem solid #FFD161;
+    margin:0 auto 0.4rem;
+    border-radius: 0.15rem;
+    display: flex;
+}
+.pj-box-top span{
+    width: 50%;
+    height: 100%;
+    font-size: 0.42rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    line-height: 1.11rem;
+    background: #FFD161;
+}
+.pj-box-top span:nth-child(2){
+    width: 50%;
+    height: 100%;
+    font-size: 0.42rem;
+    font-weight: 600;
+    color: #FFB000;
+    text-align: center;
+    line-height: 1.11rem;
+    background: #fff;
+}
+.pj-box-center{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+.pj-center{
+    width: 10.2rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pj-center-tit{
+    width: 2.08rem;
+    height: 0.75rem;
+    background: #F4F4F4;
+    color: #333333;
+    font-size: 0.34rem;
+    text-align: center;
+    line-height: 0.75rem;
+    border-radius: 0.12rem;
+    margin-left: 0.35rem;
+    margin-bottom: 0.3rem;
+}
+.pj-nr-box{
+    width: 100%;
+    height: auto;
+    margin-top: 0.15rem;
+}
+.pj-nr-box ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    /*margin-bottom: 1.4rem;*/
+}
+.pj-nr-box ul li{
+    width: 10.5rem;
+    height: 3.84rem;
+    border-bottom: 0.01rem solid #DADADA;
+    display: flex;
+    align-items: center;
+}
+.pj-li-box{
+    width: 100%;
+    height: 2.94rem;
+    display: flex;
+}
+.pj-li-tu{
+    width: 1.22rem;
+    height: 1.22rem;
+    border-radius: 50%;
+    border: 0.04rem solid #FF9900;
+}
+.pj-li-tu img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.pj-li-box p{
+    width: 8.39rem;
+    height: auto;
+    margin-left: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pj-li-box p span{
+    font-size: 0.42rem;
+    display: block;
+    color: #333333;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.pj-li-box p span em{
+    font-size: 0.28rem;
+    color: #999;
+    font-style: normal;
+}
+.pj-li-box p span:nth-child(2) i{
+    width: 0.33rem;
+    height: 0.33rem;
+    background-image: url("../img/dz.png");
+    background-size: 0.33rem 0.33rem;
+    margin-top: 0.1rem;
+}
+.pj-li-box p span:nth-child(2) em{
+    color: #999;
+    font-size: 0.32rem;
+    font-style: normal;
+    margin-right: 6.1rem;
+}
+.pj-li-box p span:nth-child(3){
+    font-size: 0.4rem;
+    color: #333;
+}
